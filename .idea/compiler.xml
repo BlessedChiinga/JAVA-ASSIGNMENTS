@@ -3,8 +3,9 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="SimpleJavaFXApp" target="25" />
-      <module name="SimpleJavaFXApp.main" target="25" />
-      <module name="SimpleJavaFXApp.test" target="25" />
+      <module name="SimpleJavaFXAPP" target="25" />
+      <module name="SimpleJavaFXAPP.main" target="25" />
+      <module name="SimpleJavaFXAPP.test" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
