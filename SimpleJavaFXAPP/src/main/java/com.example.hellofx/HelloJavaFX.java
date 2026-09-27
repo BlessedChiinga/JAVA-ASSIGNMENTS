@@ -11,8 +11,8 @@ import javafx.stage.Stage;
 public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
-        Label message = new Label("Welcome to JavaFX!");
-        Button button = new Button("Click Me");
+        Label message = new Label("Blessed Chiinga");
+        Button button = new Button("Reset");
         button.setOnAction(event ->
                 message.setText("Great! You clicked the button.")
         );

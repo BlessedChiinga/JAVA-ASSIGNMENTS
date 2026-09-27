@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ICT261.iml" filepath="$PROJECT_DIR$/.idea/ICT261.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SimpleJavaFXAPP.iml" filepath="$PROJECT_DIR$/SimpleJavaFXAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.test.iml" filepath="$PROJECT_DIR$/.idea/modules/SimpleJavaFXAPP.test.iml" />
     </modules>
