@@ -7,13 +7,15 @@ abstract class Report {
 
     void printTitle() {
         System.out.println(title);
+        generate();
     }
 
     abstract void generate();
 }
 
 class SalesReport extends Report {
-    SalesReport() { super("Sales"); }
+    public SalesReport() { super("Sales"); }
+    @Override
     void generate() { System.out.println("Generating sales report"); }
 
     void printtitle() {

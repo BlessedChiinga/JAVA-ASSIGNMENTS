@@ -1,6 +1,6 @@
 
 
-public class Main{
+public class ReportMain{
     public static void main(String[] args){
         SalesReport report = new SalesReport();
 
