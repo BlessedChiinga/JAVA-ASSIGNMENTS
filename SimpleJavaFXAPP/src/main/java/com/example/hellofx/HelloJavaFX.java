@@ -7,6 +7,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+import static jdk.internal.org.jline.terminal.Terminal.MouseTracking.Button;
+
 public class HelloJavaFX extends Application {
     @Override
     public void start(Stage stage) {
