@@ -1,0 +1,66 @@
+Nov 02, 2026 12:38:08 PM newD.MarksImporter main
+SEVERE: FileNotFoundException: marks.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: marks.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at newD.MarksImporter.importMarks(MarksImporter.java:29)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:42:39 PM newD.MarksImporter importMarks
+WARNING: Non-numeric mark on line 2 [ICT002, ABC]
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at newD.MarksImporter.processRecord(MarksImporter.java:64)
+	at newD.MarksImporter.importMarks(MarksImporter.java:38)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:42:39 PM newD.MarksImporter importMarks
+WARNING: Duplicate on line 3 [ICT001, 65]
+newD.DuplicateStudentException: student ICT001 appears more than once
+	at newD.MarksImporter.processRecord(MarksImporter.java:71)
+	at newD.MarksImporter.importMarks(MarksImporter.java:38)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:43:08 PM newD.MarksImporter importMarks
+WARNING: Non-numeric mark on line 2 [ICT002, ABC]
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at newD.MarksImporter.processRecord(MarksImporter.java:64)
+	at newD.MarksImporter.importMarks(MarksImporter.java:38)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:43:08 PM newD.MarksImporter importMarks
+WARNING: Duplicate on line 3 [ICT001, 65]
+newD.DuplicateStudentException: student ICT001 appears more than once
+	at newD.MarksImporter.processRecord(MarksImporter.java:71)
+	at newD.MarksImporter.importMarks(MarksImporter.java:38)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:51:07 PM newD.MarksImporter importMarks
+WARNING: Non-numeric mark on line 1 [ICT002, ABC]
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at newD.MarksImporter.processRecord(MarksImporter.java:64)
+	at newD.MarksImporter.importMarks(MarksImporter.java:38)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
+Nov 02, 2026 12:53:26 PM newD.MarksImporter main
+SEVERE: FileNotFoundException: marks.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: marks.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at newD.MarksImporter.importMarks(MarksImporter.java:29)
+	at newD.MarksImporter.main(MarksImporter.java:81)
+
